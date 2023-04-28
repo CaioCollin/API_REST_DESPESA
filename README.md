@@ -15,3 +15,12 @@ Página de Listagem de todas as despesas:
 
 Página de Listagem em geral ou mês vigente:
 - Permitir que o usuário personalize algumas configurações como exibição de endereço completo, exclusão e alteração das despesas.
+
+
+<br><br>
+### gif Páginas web:
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/126752400/235085470-373751a9-1ee9-4784-9322-aa73115a12db.gif)
+
+<br><br>
+### CÓDIGO NetBeans :
+
