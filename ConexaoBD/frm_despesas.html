@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1 style='color: green'>FORMULARIO DE CADASTRO </h1><hr><br>
+        <form action="inserir_despesas.php" method="POST">
+            <label for="descricao"> descricao: </label>            
+            <input type="text" id="descricao" name="descricao">
+            <br>  <br>
+            <label for="valor"> Valor: </label>            
+            <input type="text" id="valor" name="valor">
+            <br>  <br>
+            <label for="despesa_DATA"> Data: </label>            
+            <input type="date" id="despesa_DATA" name="despesa_DATA" required>
+
+            <br>  <br>
+            <label for="pagamento">Forma de Pagamento:</label>
+            <select name="pagamento">
+                <option value="DINHEIRO">DINHEIRO</option>
+                <option value="DÉBITO">DÉBITO</option>
+                <option value="CRÉDITO">CRÉDITO</option>
+                <option value="PIX">PIX</option>
+            </select>
+
+            <br>   <br>
+            <label for="categoria">CEP :</label>
+            <input type="text" id="categoria" name="categoria">
+            <br>  <br>            
+            <input type="submit" value="Cadastrar">
+
+        </form>
+        <br><a href="listar_despesas.php" style='color:  purple;'>VER LISTA DE DESPESAS</a><br><br>
+        <a href="despesamesVigente.php"   style='color: green'>DESPESAS VIGENTE</a>
+
+
+    </body>
+</html>
